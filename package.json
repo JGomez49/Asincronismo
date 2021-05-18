@@ -1,0 +1,19 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "cb": "node src/callback/index.js",
+    "challenge_callback":"node src/callback/challenge.js",
+    "promise":"node src/promise/index.js",
+    "challenge_promises":"node src/promise/challenge.js",
+    "async":"node src/async/index.js",
+    "challenge_async":"node src/async/challenge.js"
+  },
+  "author": "John Gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
